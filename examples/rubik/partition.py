@@ -186,9 +186,9 @@ class Partition(object):
 	"""
         zigzag(self.box, axis, direction, depth, stride)
 
-    def zorder(self):
+    def zorder(self, proc):
         """ Reorder the processes in this box in z order. """
-        zorder.zorder(self.box)
+        zorder.zorder(self.box, proc)
 
     # === Other Operations =============================================
     def depth(self):
