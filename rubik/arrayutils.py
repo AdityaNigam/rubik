@@ -38,6 +38,7 @@
 This file defines functions that operate on numpy arrays.  Most are the
 fundamental rubik transforamtions that permute array elements.
 """
+import itertools
 import numpy as np
 
 def data(arr):
